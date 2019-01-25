@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E43B7E521FAE87A0039C650 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43B7E421FAE87A0039C650 /* AppDelegate.swift */; };
+		2E43B7E721FAE87A0039C650 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43B7E621FAE87A0039C650 /* ViewController.swift */; };
+		2E43B7EA21FAE87A0039C650 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E43B7E821FAE87A0039C650 /* Main.storyboard */; };
+		2E43B7ED21FAE87A0039C650 /* HeroKuApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E43B7EB21FAE87A0039C650 /* HeroKuApp.xcdatamodeld */; };
+		2E43B7EF21FAE87C0039C650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E43B7EE21FAE87C0039C650 /* Assets.xcassets */; };
+		2E43B7F221FAE87C0039C650 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E43B7F021FAE87C0039C650 /* LaunchScreen.storyboard */; };
+		2E43B7FD21FAE87C0039C650 /* HeroKuAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43B7FC21FAE87C0039C650 /* HeroKuAppTests.swift */; };
+		2E43B80821FAE87C0039C650 /* HeroKuAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43B80721FAE87C0039C650 /* HeroKuAppUITests.swift */; };
+		2E43B81721FAEA100039C650 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43B81521FAEA100039C650 /* LoginViewController.swift */; };
+		2E43B81821FAEA100039C650 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E43B81621FAEA100039C650 /* LoginViewController.xib */; };
+		2E43B81B21FAEAD20039C650 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43B81A21FAEAD20039C650 /* Services.swift */; };
+		2E43B81E21FAF54F0039C650 /* StaffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43B81C21FAF54F0039C650 /* StaffViewController.swift */; };
+		2E43B81F21FAF54F0039C650 /* StaffViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E43B81D21FAF54F0039C650 /* StaffViewController.xib */; };
+		2E43B82221FAF8450039C650 /* StaffDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43B82021FAF8450039C650 /* StaffDetailsViewController.swift */; };
+		2E43B82321FAF8450039C650 /* StaffDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E43B82121FAF8450039C650 /* StaffDetailsViewController.xib */; };
+		2E43B82621FAF9AE0039C650 /* BookSeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43B82421FAF9AE0039C650 /* BookSeatViewController.swift */; };
+		2E43B82721FAF9AE0039C650 /* BookSeatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E43B82521FAF9AE0039C650 /* BookSeatViewController.xib */; };
+		2E43B82921FAFF520039C650 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43B82821FAFF520039C650 /* Utils.swift */; };
+		2E43B82D21FB01E00039C650 /* StaffTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43B82B21FB01E00039C650 /* StaffTableViewCell.swift */; };
+		2E43B82E21FB01E00039C650 /* StaffTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E43B82C21FB01E00039C650 /* StaffTableViewCell.xib */; };
+		57D244B5FA17F3773F54F8BA /* Pods_HeroKuAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C720A36CF006CE103DDA03E /* Pods_HeroKuAppUITests.framework */; };
+		E2368AFDC336F98DA5E02EF5 /* Pods_HeroKuApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D7A94C8414F34690F657FD /* Pods_HeroKuApp.framework */; };
+		F54603A3FDEA18F170734493 /* Pods_HeroKuAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B8D5BC7A38CF48C8B72495 /* Pods_HeroKuAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E43B7F921FAE87C0039C650 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E43B7D921FAE87A0039C650 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E43B7E021FAE87A0039C650;
+			remoteInfo = HeroKuApp;
+		};
+		2E43B80421FAE87C0039C650 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E43B7D921FAE87A0039C650 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E43B7E021FAE87A0039C650;
+			remoteInfo = HeroKuApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A8F61F521C979B994D28D56 /* Pods-HeroKuAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroKuAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeroKuAppTests/Pods-HeroKuAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		130D5AF7AEB8E6290DEC7574 /* Pods-HeroKuApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroKuApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeroKuApp/Pods-HeroKuApp.release.xcconfig"; sourceTree = "<group>"; };
+		2E43B7E121FAE87A0039C650 /* HeroKuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroKuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E43B7E421FAE87A0039C650 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E43B7E621FAE87A0039C650 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E43B7E921FAE87A0039C650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E43B7EC21FAE87A0039C650 /* HeroKuApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HeroKuApp.xcdatamodel; sourceTree = "<group>"; };
+		2E43B7EE21FAE87C0039C650 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E43B7F121FAE87C0039C650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E43B7F321FAE87C0039C650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E43B7F821FAE87C0039C650 /* HeroKuAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroKuAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E43B7FC21FAE87C0039C650 /* HeroKuAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroKuAppTests.swift; sourceTree = "<group>"; };
+		2E43B7FE21FAE87C0039C650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E43B80321FAE87C0039C650 /* HeroKuAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroKuAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E43B80721FAE87C0039C650 /* HeroKuAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroKuAppUITests.swift; sourceTree = "<group>"; };
+		2E43B80921FAE87C0039C650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E43B81521FAEA100039C650 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2E43B81621FAEA100039C650 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		2E43B81A21FAEAD20039C650 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		2E43B81C21FAF54F0039C650 /* StaffViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffViewController.swift; sourceTree = "<group>"; };
+		2E43B81D21FAF54F0039C650 /* StaffViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StaffViewController.xib; sourceTree = "<group>"; };
+		2E43B82021FAF8450039C650 /* StaffDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffDetailsViewController.swift; sourceTree = "<group>"; };
+		2E43B82121FAF8450039C650 /* StaffDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StaffDetailsViewController.xib; sourceTree = "<group>"; };
+		2E43B82421FAF9AE0039C650 /* BookSeatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSeatViewController.swift; sourceTree = "<group>"; };
+		2E43B82521FAF9AE0039C650 /* BookSeatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookSeatViewController.xib; sourceTree = "<group>"; };
+		2E43B82821FAFF520039C650 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		2E43B82B21FB01E00039C650 /* StaffTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffTableViewCell.swift; sourceTree = "<group>"; };
+		2E43B82C21FB01E00039C650 /* StaffTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StaffTableViewCell.xib; sourceTree = "<group>"; };
+		4C720A36CF006CE103DDA03E /* Pods_HeroKuAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeroKuAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6CAFF4B334F6652A85BE5D0 /* Pods-HeroKuAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroKuAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeroKuAppUITests/Pods-HeroKuAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BAFEE01126CC5C08E7164943 /* Pods-HeroKuAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroKuAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeroKuAppTests/Pods-HeroKuAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBA53037C03684C2E75A31FB /* Pods-HeroKuApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroKuApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeroKuApp/Pods-HeroKuApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C1B8D5BC7A38CF48C8B72495 /* Pods_HeroKuAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeroKuAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D7A94C8414F34690F657FD /* Pods_HeroKuApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeroKuApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36901691A75B6F04B853C8C /* Pods-HeroKuAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroKuAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeroKuAppUITests/Pods-HeroKuAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E43B7DE21FAE87A0039C650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2368AFDC336F98DA5E02EF5 /* Pods_HeroKuApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E43B7F521FAE87C0039C650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54603A3FDEA18F170734493 /* Pods_HeroKuAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E43B80021FAE87C0039C650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D244B5FA17F3773F54F8BA /* Pods_HeroKuAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E43B7D821FAE87A0039C650 = {
+			isa = PBXGroup;
+			children = (
+				2E43B7E321FAE87A0039C650 /* HeroKuApp */,
+				2E43B7FB21FAE87C0039C650 /* HeroKuAppTests */,
+				2E43B80621FAE87C0039C650 /* HeroKuAppUITests */,
+				2E43B7E221FAE87A0039C650 /* Products */,
+				C65F80E37F9E08262EE3C770 /* Pods */,
+				3212332114D5AFEE9367BBDB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2E43B7E221FAE87A0039C650 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E43B7E121FAE87A0039C650 /* HeroKuApp.app */,
+				2E43B7F821FAE87C0039C650 /* HeroKuAppTests.xctest */,
+				2E43B80321FAE87C0039C650 /* HeroKuAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E43B7E321FAE87A0039C650 /* HeroKuApp */ = {
+			isa = PBXGroup;
+			children = (
+				2E43B82A21FB01C80039C650 /* CustomCell */,
+				2E43B81921FAEAB70039C650 /* Models */,
+				2E43B7E421FAE87A0039C650 /* AppDelegate.swift */,
+				2E43B7E621FAE87A0039C650 /* ViewController.swift */,
+				2E43B7E821FAE87A0039C650 /* Main.storyboard */,
+				2E43B81521FAEA100039C650 /* LoginViewController.swift */,
+				2E43B81621FAEA100039C650 /* LoginViewController.xib */,
+				2E43B81C21FAF54F0039C650 /* StaffViewController.swift */,
+				2E43B81D21FAF54F0039C650 /* StaffViewController.xib */,
+				2E43B82021FAF8450039C650 /* StaffDetailsViewController.swift */,
+				2E43B82121FAF8450039C650 /* StaffDetailsViewController.xib */,
+				2E43B82421FAF9AE0039C650 /* BookSeatViewController.swift */,
+				2E43B82521FAF9AE0039C650 /* BookSeatViewController.xib */,
+				2E43B7EE21FAE87C0039C650 /* Assets.xcassets */,
+				2E43B7F021FAE87C0039C650 /* LaunchScreen.storyboard */,
+				2E43B7F321FAE87C0039C650 /* Info.plist */,
+				2E43B7EB21FAE87A0039C650 /* HeroKuApp.xcdatamodeld */,
+			);
+			path = HeroKuApp;
+			sourceTree = "<group>";
+		};
+		2E43B7FB21FAE87C0039C650 /* HeroKuAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E43B7FC21FAE87C0039C650 /* HeroKuAppTests.swift */,
+				2E43B7FE21FAE87C0039C650 /* Info.plist */,
+			);
+			path = HeroKuAppTests;
+			sourceTree = "<group>";
+		};
+		2E43B80621FAE87C0039C650 /* HeroKuAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E43B80721FAE87C0039C650 /* HeroKuAppUITests.swift */,
+				2E43B80921FAE87C0039C650 /* Info.plist */,
+			);
+			path = HeroKuAppUITests;
+			sourceTree = "<group>";
+		};
+		2E43B81921FAEAB70039C650 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2E43B81A21FAEAD20039C650 /* Services.swift */,
+				2E43B82821FAFF520039C650 /* Utils.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2E43B82A21FB01C80039C650 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				2E43B82B21FB01E00039C650 /* StaffTableViewCell.swift */,
+				2E43B82C21FB01E00039C650 /* StaffTableViewCell.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		3212332114D5AFEE9367BBDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3D7A94C8414F34690F657FD /* Pods_HeroKuApp.framework */,
+				C1B8D5BC7A38CF48C8B72495 /* Pods_HeroKuAppTests.framework */,
+				4C720A36CF006CE103DDA03E /* Pods_HeroKuAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C65F80E37F9E08262EE3C770 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBA53037C03684C2E75A31FB /* Pods-HeroKuApp.debug.xcconfig */,
+				130D5AF7AEB8E6290DEC7574 /* Pods-HeroKuApp.release.xcconfig */,
+				BAFEE01126CC5C08E7164943 /* Pods-HeroKuAppTests.debug.xcconfig */,
+				0A8F61F521C979B994D28D56 /* Pods-HeroKuAppTests.release.xcconfig */,
+				F36901691A75B6F04B853C8C /* Pods-HeroKuAppUITests.debug.xcconfig */,
+				B6CAFF4B334F6652A85BE5D0 /* Pods-HeroKuAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E43B7E021FAE87A0039C650 /* HeroKuApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E43B80C21FAE87C0039C650 /* Build configuration list for PBXNativeTarget "HeroKuApp" */;
+			buildPhases = (
+				D28DC287C4C1DFA4EEE55E39 /* [CP] Check Pods Manifest.lock */,
+				2E43B7DD21FAE87A0039C650 /* Sources */,
+				2E43B7DE21FAE87A0039C650 /* Frameworks */,
+				2E43B7DF21FAE87A0039C650 /* Resources */,
+				C9906F8F4AC1C7A7945E009F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeroKuApp;
+			productName = HeroKuApp;
+			productReference = 2E43B7E121FAE87A0039C650 /* HeroKuApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E43B7F721FAE87C0039C650 /* HeroKuAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E43B80F21FAE87C0039C650 /* Build configuration list for PBXNativeTarget "HeroKuAppTests" */;
+			buildPhases = (
+				EA06E74A85C192E2F1987A4E /* [CP] Check Pods Manifest.lock */,
+				2E43B7F421FAE87C0039C650 /* Sources */,
+				2E43B7F521FAE87C0039C650 /* Frameworks */,
+				2E43B7F621FAE87C0039C650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E43B7FA21FAE87C0039C650 /* PBXTargetDependency */,
+			);
+			name = HeroKuAppTests;
+			productName = HeroKuAppTests;
+			productReference = 2E43B7F821FAE87C0039C650 /* HeroKuAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E43B80221FAE87C0039C650 /* HeroKuAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E43B81221FAE87C0039C650 /* Build configuration list for PBXNativeTarget "HeroKuAppUITests" */;
+			buildPhases = (
+				183F98D69ACA5651644FF045 /* [CP] Check Pods Manifest.lock */,
+				2E43B7FF21FAE87C0039C650 /* Sources */,
+				2E43B80021FAE87C0039C650 /* Frameworks */,
+				2E43B80121FAE87C0039C650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E43B80521FAE87C0039C650 /* PBXTargetDependency */,
+			);
+			name = HeroKuAppUITests;
+			productName = HeroKuAppUITests;
+			productReference = 2E43B80321FAE87C0039C650 /* HeroKuAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E43B7D921FAE87A0039C650 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Orbysol Systems Pvt Ltd";
+				TargetAttributes = {
+					2E43B7E021FAE87A0039C650 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2E43B7F721FAE87C0039C650 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2E43B7E021FAE87A0039C650;
+					};
+					2E43B80221FAE87C0039C650 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2E43B7E021FAE87A0039C650;
+					};
+				};
+			};
+			buildConfigurationList = 2E43B7DC21FAE87A0039C650 /* Build configuration list for PBXProject "HeroKuApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E43B7D821FAE87A0039C650;
+			productRefGroup = 2E43B7E221FAE87A0039C650 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E43B7E021FAE87A0039C650 /* HeroKuApp */,
+				2E43B7F721FAE87C0039C650 /* HeroKuAppTests */,
+				2E43B80221FAE87C0039C650 /* HeroKuAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E43B7DF21FAE87A0039C650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E43B81821FAEA100039C650 /* LoginViewController.xib in Resources */,
+				2E43B81F21FAF54F0039C650 /* StaffViewController.xib in Resources */,
+				2E43B82721FAF9AE0039C650 /* BookSeatViewController.xib in Resources */,
+				2E43B82321FAF8450039C650 /* StaffDetailsViewController.xib in Resources */,
+				2E43B7F221FAE87C0039C650 /* LaunchScreen.storyboard in Resources */,
+				2E43B7EF21FAE87C0039C650 /* Assets.xcassets in Resources */,
+				2E43B82E21FB01E00039C650 /* StaffTableViewCell.xib in Resources */,
+				2E43B7EA21FAE87A0039C650 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E43B7F621FAE87C0039C650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E43B80121FAE87C0039C650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		183F98D69ACA5651644FF045 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeroKuAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9906F8F4AC1C7A7945E009F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HeroKuApp/Pods-HeroKuApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeroKuApp/Pods-HeroKuApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D28DC287C4C1DFA4EEE55E39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeroKuApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA06E74A85C192E2F1987A4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeroKuAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E43B7DD21FAE87A0039C650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E43B81B21FAEAD20039C650 /* Services.swift in Sources */,
+				2E43B81E21FAF54F0039C650 /* StaffViewController.swift in Sources */,
+				2E43B82921FAFF520039C650 /* Utils.swift in Sources */,
+				2E43B82221FAF8450039C650 /* StaffDetailsViewController.swift in Sources */,
+				2E43B82D21FB01E00039C650 /* StaffTableViewCell.swift in Sources */,
+				2E43B81721FAEA100039C650 /* LoginViewController.swift in Sources */,
+				2E43B7E721FAE87A0039C650 /* ViewController.swift in Sources */,
+				2E43B7E521FAE87A0039C650 /* AppDelegate.swift in Sources */,
+				2E43B82621FAF9AE0039C650 /* BookSeatViewController.swift in Sources */,
+				2E43B7ED21FAE87A0039C650 /* HeroKuApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E43B7F421FAE87C0039C650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E43B7FD21FAE87C0039C650 /* HeroKuAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E43B7FF21FAE87C0039C650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E43B80821FAE87C0039C650 /* HeroKuAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E43B7FA21FAE87C0039C650 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E43B7E021FAE87A0039C650 /* HeroKuApp */;
+			targetProxy = 2E43B7F921FAE87C0039C650 /* PBXContainerItemProxy */;
+		};
+		2E43B80521FAE87C0039C650 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E43B7E021FAE87A0039C650 /* HeroKuApp */;
+			targetProxy = 2E43B80421FAE87C0039C650 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E43B7E821FAE87A0039C650 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E43B7E921FAE87A0039C650 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E43B7F021FAE87C0039C650 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E43B7F121FAE87C0039C650 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E43B80A21FAE87C0039C650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E43B80B21FAE87C0039C650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E43B80D21FAE87C0039C650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBA53037C03684C2E75A31FB /* Pods-HeroKuApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NB8RDH538F;
+				INFOPLIST_FILE = HeroKuApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orbysol.HeroKuApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E43B80E21FAE87C0039C650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 130D5AF7AEB8E6290DEC7574 /* Pods-HeroKuApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NB8RDH538F;
+				INFOPLIST_FILE = HeroKuApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orbysol.HeroKuApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2E43B81021FAE87C0039C650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAFEE01126CC5C08E7164943 /* Pods-HeroKuAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HeroKuAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orbysol.HeroKuAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeroKuApp.app/HeroKuApp";
+			};
+			name = Debug;
+		};
+		2E43B81121FAE87C0039C650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A8F61F521C979B994D28D56 /* Pods-HeroKuAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HeroKuAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orbysol.HeroKuAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeroKuApp.app/HeroKuApp";
+			};
+			name = Release;
+		};
+		2E43B81321FAE87C0039C650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F36901691A75B6F04B853C8C /* Pods-HeroKuAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HeroKuAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orbysol.HeroKuAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeroKuApp;
+			};
+			name = Debug;
+		};
+		2E43B81421FAE87C0039C650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6CAFF4B334F6652A85BE5D0 /* Pods-HeroKuAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HeroKuAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orbysol.HeroKuAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeroKuApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E43B7DC21FAE87A0039C650 /* Build configuration list for PBXProject "HeroKuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E43B80A21FAE87C0039C650 /* Debug */,
+				2E43B80B21FAE87C0039C650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E43B80C21FAE87C0039C650 /* Build configuration list for PBXNativeTarget "HeroKuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E43B80D21FAE87C0039C650 /* Debug */,
+				2E43B80E21FAE87C0039C650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E43B80F21FAE87C0039C650 /* Build configuration list for PBXNativeTarget "HeroKuAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E43B81021FAE87C0039C650 /* Debug */,
+				2E43B81121FAE87C0039C650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E43B81221FAE87C0039C650 /* Build configuration list for PBXNativeTarget "HeroKuAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E43B81321FAE87C0039C650 /* Debug */,
+				2E43B81421FAE87C0039C650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2E43B7EB21FAE87A0039C650 /* HeroKuApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2E43B7EC21FAE87A0039C650 /* HeroKuApp.xcdatamodel */,
+			);
+			currentVersion = 2E43B7EC21FAE87A0039C650 /* HeroKuApp.xcdatamodel */;
+			path = HeroKuApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2E43B7D921FAE87A0039C650 /* Project object */;
+}
